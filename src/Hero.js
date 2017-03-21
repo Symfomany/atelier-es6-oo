@@ -1,0 +1,5 @@
+class Hero extends Guerrier{
+
+
+
+}

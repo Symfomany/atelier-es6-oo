@@ -1,7 +1,7 @@
 /**
  * @class Personnage
  */
-class Personnage{
+export class Personnage{
 
 	/**
 	 * Construct personnage
