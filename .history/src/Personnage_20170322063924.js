@@ -36,12 +36,6 @@ class Personnage {
 		this.ville = autreVille;
 	}
 
-	evoluer() {
-		this.experience += 10;
-	}
-
-
-
 	/**
 	 *  Getter: permet de renvoyer une fonction derriere un attribut
 	 * Modifie la sortie d'un attribut

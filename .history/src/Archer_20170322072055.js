@@ -3,10 +3,8 @@ class Archer extends Personnage {
 
 
 	attaqueFleche(tabPersonnage) {
+		tabPersonnage.foreEach(function () {
 
-		tabPersonnage.forEach(function (perso) {
-			perso.degat -= 1;
 		});
-
 	}
 }

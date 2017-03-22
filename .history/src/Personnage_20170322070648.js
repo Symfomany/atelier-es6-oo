@@ -37,7 +37,7 @@ class Personnage {
 	}
 
 	evoluer() {
-		this.experience += 10;
+
 	}
 
 

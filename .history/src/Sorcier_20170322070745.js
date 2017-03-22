@@ -1,0 +1,5 @@
+class Sorcier extends Personnage {
+
+
+
+}

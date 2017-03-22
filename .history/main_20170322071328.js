@@ -8,10 +8,12 @@
  */
 const gandalf = new Personnage('Gandalf');
 const legolas = new Personnage('Legolas');
+const aragorn = new Personnage('Aragorn');
 const gimli = new Personnage('Gimli');
 
 console.log(gandalf);
 console.log(legolas);
+console.log(aragorn);
 console.log(gimli);
 console.log(gandalf.sePresenter());
 
@@ -31,10 +33,10 @@ gimli.changerVille('Marseille');
  * Fight... !! Gandalf est bourré :(
  */
 gandalf.frapper(gimli);
-gandalf.frapper(legolas);
+gandalf.frapper(aragorn);
 
 // Regardons chaque état des personnages après la baston...
-console.log(gandalf, gimli);
+console.log(gandalf, gimli, aragorn);
 
 /**
  * Getter: modifie la sortie d'un attribut en "GET"
@@ -60,22 +62,10 @@ console.log(Personnage.jouerDansFilm());
 
 
 
+
 const sarouman = new Sorcier('sarouman');
 sarouman.ensorceler(gandalf);
 
 
-console.log(sarouman, gandalf);
-
-const azog = new Orc();
-const aragorn = new Guerrier('Aragorn');
-
-
-azog.canibaler(aragorn);
-console.log(azog, aragorn);
-
-
-azog.canibaler(sarouman);
-console.log(azog, sarouman);
-
-
+console.log(sarouman);
 

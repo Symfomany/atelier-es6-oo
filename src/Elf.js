@@ -1,5 +1,4 @@
-class Archer extends Personnage {
-
+class Elf {
 
 
 	attaqueFleche(tabPersonnage) {
@@ -9,4 +8,6 @@ class Archer extends Personnage {
 		});
 
 	}
+
+
 }

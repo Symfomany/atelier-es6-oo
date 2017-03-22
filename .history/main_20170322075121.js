@@ -74,8 +74,5 @@ azog.canibaler(aragorn);
 console.log(azog, aragorn);
 
 
-azog.canibaler(sarouman);
-console.log(azog, sarouman);
-
 
 

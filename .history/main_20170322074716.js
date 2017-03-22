@@ -12,6 +12,7 @@ const gimli = new Personnage('Gimli');
 
 console.log(gandalf);
 console.log(legolas);
+console.log(aragorn);
 console.log(gimli);
 console.log(gandalf.sePresenter());
 
@@ -60,6 +61,7 @@ console.log(Personnage.jouerDansFilm());
 
 
 
+
 const sarouman = new Sorcier('sarouman');
 sarouman.ensorceler(gandalf);
 
@@ -72,10 +74,4 @@ const aragorn = new Guerrier('Aragorn');
 
 azog.canibaler(aragorn);
 console.log(azog, aragorn);
-
-
-azog.canibaler(sarouman);
-console.log(azog, sarouman);
-
-
 

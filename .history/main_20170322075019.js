@@ -70,12 +70,14 @@ const azog = new Orc();
 const aragorn = new Guerrier('Aragorn');
 
 
-azog.canibaler(aragorn);
+
+
+const duilin = new Elf('Duilin');
+
+
+azog.canibaler(duilin);
 console.log(azog, aragorn);
 
-
-azog.canibaler(sarouman);
-console.log(azog, sarouman);
 
 
 

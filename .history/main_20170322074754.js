@@ -60,6 +60,7 @@ console.log(Personnage.jouerDansFilm());
 
 
 
+
 const sarouman = new Sorcier('sarouman');
 sarouman.ensorceler(gandalf);
 
@@ -70,12 +71,6 @@ const azog = new Orc();
 const aragorn = new Guerrier('Aragorn');
 
 
-azog.canibaler(aragorn);
+azog.canibaler(legolas);
 console.log(azog, aragorn);
-
-
-azog.canibaler(sarouman);
-console.log(azog, sarouman);
-
-
 
